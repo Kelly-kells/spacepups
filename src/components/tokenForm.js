@@ -77,9 +77,9 @@ export default function Form() {
           label="Token Contract"
           onChange={handleSetContract}
         >
-          <MenuItem value={'selectedContract'}></MenuItem>
-          <MenuItem value={'0x001'}></MenuItem>
-          <MenuItem value={'0x002'}></MenuItem>
+          
+          <MenuItem value={'0x001'}>1</MenuItem>
+          <MenuItem value={'0x002'}>2</MenuItem>
         </Select>
         <TextField
           id="tokenId"
